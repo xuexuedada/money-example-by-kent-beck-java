@@ -9,7 +9,7 @@ public class Money {
 
     @Override
     public boolean equals(Object obj) {
-        Money dollar = (Money) obj;
-        return amount == dollar.amount;
+        Money money = (Money) obj;
+        return amount == money.amount;
     }
 }
