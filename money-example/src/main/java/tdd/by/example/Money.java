@@ -12,4 +12,5 @@ public class Money {
         Money money = (Money) obj;
         return amount == money.amount;
     }
+
 }
