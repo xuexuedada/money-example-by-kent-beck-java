@@ -7,6 +7,7 @@
 - [X] `Dollar side-effects?`
 - [ ] `Money rounding?`
 - [ ] `queals()`
+- [ ] `hashCode()`
 
 
 
