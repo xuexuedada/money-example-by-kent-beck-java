@@ -10,7 +10,7 @@
 - [ ] `hashCode()`
 - [ ] `Equal null`
 - [ ] `Equal object`
-- [ ] `“5CHF*2=10CHF`
+- [X] ~~`“5CHF*2=10CHF`~~
 
 
 ## 📝 reviewed
