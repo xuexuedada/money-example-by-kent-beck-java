@@ -8,6 +8,8 @@
 - [ ] `Money rounding?`
 - [X] ~~`working queals()`~~
 - [ ] `hashCode()`
+- [ ] `Equal null`
+- [ ] `Equal object`
 
 
 
