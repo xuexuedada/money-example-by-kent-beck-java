@@ -4,8 +4,9 @@
 
 - [X] `$5 * 2 = $10`
 - [ ] `Make "amount" private`
-- [ ] `Working Dollar side-effects?`
+- [X] `Dollar side-effects?`
 - [ ] `Money rounding?`
+- [ ] `queals()`
 
 
 
