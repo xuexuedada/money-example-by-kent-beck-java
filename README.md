@@ -4,7 +4,7 @@
 
 - [X] `$5 * 2 = $10`
 - [ ] `Make "amount" private`
-- [ ] `Dollar side-effects?`
+- [ ] `Working Dollar side-effects?`
 - [ ] `Money rounding?`
 
 
