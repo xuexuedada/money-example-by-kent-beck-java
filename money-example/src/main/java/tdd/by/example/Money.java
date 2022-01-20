@@ -7,6 +7,9 @@ public class Money {
         this.amount = amount;
     }
 
+    public Money() {
+    }
+
     @Override
     public boolean equals(Object obj) {
         Money money = (Money) obj;
