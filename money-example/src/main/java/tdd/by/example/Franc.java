@@ -9,8 +9,8 @@ public class Franc {
     }
 
 
-    public tdd.by.example.Dollar times(int multiplier) {
-        return new tdd.by.example.Dollar(amount * multiplier);
+    public Franc times(int multiplier) {
+        return new Franc(amount * multiplier);
     }
 
     @Override
