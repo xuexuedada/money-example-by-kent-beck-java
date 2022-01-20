@@ -3,7 +3,11 @@ package tdd.by.example;
 public class Dollar {
 
 
-    public Dollar(final int i) {
+    public Dollar(int i) {
+
+    }
+
+    public void times(int i) {
 
     }
 }
