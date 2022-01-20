@@ -1,6 +1,6 @@
 package tdd.by.example;
 
-public class Franc {
+public class Franc extends Money{
 
     private int amount;
 
