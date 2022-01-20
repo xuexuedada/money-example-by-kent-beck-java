@@ -14,3 +14,4 @@ class MoneyExampleTest {
         assertEquals(10, five.amount);
     }
 }
+
