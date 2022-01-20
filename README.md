@@ -6,7 +6,7 @@
 - [ ] `Make "amount" private`
 - [X] ~~`Dollar side-effects?`~~
 - [ ] `Money rounding?`
-- [X] ~~`working queals()`~~
+- [X] ~~`queals()`~~
 - [ ] `hashCode()`
 - [ ] `Equal null`
 - [ ] `Equal object`
