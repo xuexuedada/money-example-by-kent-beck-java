@@ -34,5 +34,10 @@ class MoneyExampleTest {
         assertEquals(Money.Franc(15), five.times(3));
     }
 
+    @Test
+    void testCurrency() {
+        assertEquals("USD",Money.Dollar(1).currency());
+        assertEquals("CHF",Money.Franc(1).currency());
+    }
 }
 
