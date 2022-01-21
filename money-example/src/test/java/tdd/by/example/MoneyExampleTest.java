@@ -23,6 +23,11 @@ class MoneyExampleTest {
     }
 
     @Test
+    void testCompareFrancsWithDollars() {
+        assertNotEquals(new Dollar(5), new Franc(5));
+    }
+
+    @Test
     void testFrancMultiplication() {
         Franc five = new Franc(5);
         assertEquals(new Franc(10), five.times(2));
