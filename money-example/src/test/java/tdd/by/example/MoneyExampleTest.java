@@ -9,7 +9,7 @@ class MoneyExampleTest {
 
     @Test
     void testMultiplication() {
-        Dollar five = Money.Dollar(5);
+        Money five = Money.Dollar(5);
         assertEquals(new Dollar(10), five.times(2));
         assertEquals(new Dollar(15), five.times(3));
     }
