@@ -2,12 +2,14 @@ package tdd.by.example;
 
 public abstract class Money {
     protected int amount;
+    protected String currency;
 
     public Money(int amount) {
         this.amount = amount;
     }
 
     public Money() {
+        this.currency = "CHF";
     }
 
     public static Franc Franc(int i) {
@@ -27,6 +29,8 @@ public abstract class Money {
         return amount == money.amount && getClass().equals(money.getClass());
     }
 
-    abstract String currency();
+    String currency() {
+        return currency;
+    }
 
 }
