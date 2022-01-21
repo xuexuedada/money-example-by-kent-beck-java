@@ -3,8 +3,11 @@ package tdd.by.example;
 public class Dollar extends Money{
 
 
+    private String currency;
+
     public Dollar(int amount) {
         super(amount);
+        this.currency = "USD";
     }
 
     @Override
@@ -14,7 +17,7 @@ public class Dollar extends Money{
 
     @Override
     String currency() {
-        return "USD";
+        return currency;
     }
 
 }

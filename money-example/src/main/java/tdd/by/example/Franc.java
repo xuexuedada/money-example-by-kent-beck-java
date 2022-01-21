@@ -2,11 +2,11 @@ package tdd.by.example;
 
 public class Franc extends Money{
 
-    private String curreny;
+    private String currency;
 
     public Franc(int amount) {
         this.amount = amount;
-        this.curreny = "CHF";
+        this.currency = "CHF";
     }
 
 
@@ -17,7 +17,7 @@ public class Franc extends Money{
 
     @Override
     String currency() {
-        return curreny;
+        return currency;
     }
 
 
