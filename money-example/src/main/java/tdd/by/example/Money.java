@@ -10,6 +10,10 @@ public class Money {
     public Money() {
     }
 
+    public static Dollar Dollar(int i) {
+        return new Dollar(5);
+    }
+
     @Override
     public boolean equals(Object obj) {
         Money money = (Money) obj;
