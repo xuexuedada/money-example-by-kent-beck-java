@@ -13,7 +13,7 @@ public abstract class Money {
     }
 
     public static Franc Franc(int i) {
-        return new Franc(i, );
+        return new Franc(i,null );
     }
 
     abstract Money times(int multiplier);
