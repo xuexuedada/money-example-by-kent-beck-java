@@ -17,9 +17,6 @@ public class Money {
         return new Dollar(amount,"USD");
     }
 
-     Money times(int multiplier){
-         return null;
-     }
 
     @Override
     public boolean equals(Object obj) {
@@ -29,5 +26,9 @@ public class Money {
 
     String currency() {
         return currency;
+    }
+
+    public Money times(int multiplier) {
+        return new Money(amount * multiplier, currency);
     }
 }
