@@ -10,7 +10,7 @@
 - [ ] `Equal null`
 - [ ] `Equal object`
 - [x] ~~`“5CHF*2=10CHF`~~
-- [ ] Compare Francs with Dollars.
+- [x] ~~Compare Francs with Dollars.~~
 
 
 ## 📝 reviewed
