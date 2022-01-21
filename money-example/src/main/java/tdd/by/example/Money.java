@@ -1,6 +1,6 @@
 package tdd.by.example;
 
-public abstract class Money {
+public class Money {
     protected int amount;
     protected String currency;
 
@@ -17,7 +17,9 @@ public abstract class Money {
         return new Dollar(amount,"USD");
     }
 
-    abstract Money times(int multiplier);
+     Money times(int multiplier){
+         return null;
+     }
 
     @Override
     public boolean equals(Object obj) {
