@@ -18,20 +18,20 @@ class MoneyExampleTest {
     void testEquality() {
         assertEquals(Money.Dollar(5), Money.Dollar(5));
         assertNotEquals(Money.Dollar(5), Money.Dollar(6));
-        assertEquals(new Franc(5), new Franc((5)));
-        assertNotEquals(new Franc(5), new Franc((6)));
+        assertEquals(Money.Franc(5), Money.Franc((5)));
+        assertNotEquals(Money.Franc(5), Money.Franc((6)));
     }
 
     @Test
     void testCompareFrancsWithDollars() {
-        assertNotEquals(Money.Dollar(5), new Franc(5));
+        assertNotEquals(Money.Dollar(5), Money.Franc(5));
     }
 
     @Test
     void testFrancMultiplication() {
-        Franc five = new Franc(5);
-        assertEquals(new Franc(10), five.times(2));
-        assertEquals(new Franc(15), five.times(3));
+        Franc five = Money.Franc(5);
+        assertEquals(Money.Franc(10), five.times(2));
+        assertEquals(Money.Franc(15), five.times(3));
     }
 
 }
