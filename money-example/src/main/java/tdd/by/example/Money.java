@@ -13,8 +13,8 @@ public abstract class Money {
     abstract Money times(int multiplier);
 
 
-    public static Dollar Dollar(int i) {
-        return new Dollar(i);
+    public static Money Dollar(int amount) {
+        return new Dollar(amount);
     }
 
     @Override
