@@ -1,6 +1,6 @@
 package tdd.by.example;
 
-public class Money {
+public abstract class Money {
     protected int amount;
 
     public Money(int amount) {
@@ -10,8 +10,11 @@ public class Money {
     public Money() {
     }
 
+    abstract Money times(int multiplier);
+
+
     public static Dollar Dollar(int i) {
-        return new Dollar(5);
+        return new Dollar(i);
     }
 
     @Override
