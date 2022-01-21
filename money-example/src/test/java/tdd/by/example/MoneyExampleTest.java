@@ -29,7 +29,7 @@ class MoneyExampleTest {
 
     @Test
     void testFrancMultiplication() {
-        Franc five = Money.Franc(5);
+        Money five = Money.Franc(5);
         assertEquals(Money.Franc(10), five.times(2));
         assertEquals(Money.Franc(15), five.times(3));
     }

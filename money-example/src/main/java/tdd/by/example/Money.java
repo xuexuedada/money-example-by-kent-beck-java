@@ -12,8 +12,8 @@ public abstract class Money {
         this.currency = "CHF";
     }
 
-    public static Franc Franc(int i) {
-        return new Franc(i,null );
+    public static Money Franc(int i) {
+        return new Franc(i, "CHF");
     }
 
     abstract Money times(int multiplier);
