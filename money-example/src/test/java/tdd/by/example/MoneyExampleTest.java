@@ -18,8 +18,6 @@ class MoneyExampleTest {
     void testEquality() {
         assertEquals(Money.Dollar(5), Money.Dollar(5));
         assertNotEquals(Money.Dollar(5), Money.Dollar(6));
-        assertEquals(Money.Franc(5), Money.Franc((5)));
-        assertNotEquals(Money.Franc(5), Money.Franc((6)));
     }
 
     @Test
@@ -40,9 +38,5 @@ class MoneyExampleTest {
         assertEquals("CHF",Money.Franc(1).currency());
     }
 
-    @Test
-    void testDifferentClassEquality() {
-        assertEquals(new Money(10, "CHF"), new Franc(10, "CHF"));
-    }
 }
 
