@@ -3,21 +3,13 @@ package tdd.by.example;
 public class Dollar extends Money{
 
 
-    private String currency;
-
-    public Dollar(int amount) {
-        super(amount);
-        this.currency = "USD";
+    public Dollar(int amount, String usd) {
+        super(amount,usd);
     }
 
     @Override
     public Money times(int multiplier) {
-        return new Dollar(amount * multiplier);
-    }
-
-    @Override
-    String currency() {
-        return currency;
+        return new Dollar(amount * multiplier, "USD");
     }
 
 }

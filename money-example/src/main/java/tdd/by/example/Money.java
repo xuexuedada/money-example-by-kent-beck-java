@@ -4,24 +4,20 @@ public abstract class Money {
     protected int amount;
     protected String currency;
 
-    public Money(int amount) {
+    Money(int amount, String currency) {
+        this.currency = currency;
         this.amount = amount;
     }
 
-    public Money() {
-        this.currency = "CHF";
+    public static Money Franc(int amount) {
+        return new Franc(amount, "CHF");
     }
 
-    public static Money Franc(int i) {
-        return new Franc(i, "CHF");
+    public static Money Dollar(int amount) {
+        return new Dollar(amount,"USD");
     }
 
     abstract Money times(int multiplier);
-
-
-    public static Money Dollar(int amount) {
-        return new Dollar(amount);
-    }
 
     @Override
     public boolean equals(Object obj) {
@@ -32,5 +28,4 @@ public abstract class Money {
     String currency() {
         return currency;
     }
-
 }
